@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700&display=swap%27');
+
+:root{
+    --primary: #1532EA;
+    --secondary: ##56575D;
+    --lj: ##171926;
+}
+body{
+    font-family: 'Archivo', sans-serif;
+    font-size: 1rem;
+}
+.container{
+    margin: 40px 120px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-logo{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--lj);
+    text-decoration: none;
+}
+
+.navbar-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar-list .navbar-link{
+    margin: 0px 40px;
+    color: var(--secondary);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.active{
+    margin: 0px 40px;
+    color: #171926;
+    font-weight: 700;
+}
+
+.navbar-logo span{
+    color: var(--primary);
+}
+
+.btn-register{
+    padding: 12px 18px;
+    border: none;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 8px;
+}
+.btn-login{
+    padding: 12px 18px;
+    border: none;
+    background-color: transparent;
+    color: var(--lj);
+}
+
+.pocket__hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pocket_hero-image-child{
+  width: 621.3px;
+}
+
+.pocket_hero-introduction-appstore-img{
+    width: 50%;
+}
+
+.pocket_hero-introduction-title{
+    color: var(--lj);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    letter-spacing: 0.5px;
+}
+.pocket_hero-introduction-description{
+    color: var(--secondary);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    width: 75%;
+}
+
+.pocket_hero-introduction-button{
+    padding: 12px 40px;
+    border: none;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 8px;
+    margin-top: 32px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
